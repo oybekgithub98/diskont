@@ -1,0 +1,59 @@
+.nav {
+    width: 100%;
+    background: #29795C;
+    height: 2.81vw;
+    color: #fff;
+}
+
+.nav_wrapper {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_wrapper li {
+    list-style-type: none;
+    padding: 0.92vw;
+    font-size: 0.80vw;
+    font-weight: 400;
+    line-height: 0.88vw;
+    font-family: sans-serif;
+}
+
+.nav_wrapper li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_wrapper ul {
+    display: flex;
+    align-items: center
+}
+
+.ul_collection select{
+    border: none;
+    outline: none;
+    width: 3.75vw;
+    height: 1.51vw;
+    background-color: #3E866C;
+    color: #fff;
+    font-size: 0.85vw;
+    line-height: 0.80vw;
+    border-radius: 52.08vw;
+    padding: 0 0.36vw;
+}
+
+.nav_icons_number {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_icon {
+    padding-right: 0.26vw;
+    font-size: 0.92vw;
+    width: 1.04vw;
+    height: 0.86vw;
+}

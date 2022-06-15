@@ -1,0 +1,127 @@
+.home {
+    width: 100%;
+    height: 29.7vw;
+    background-color: #EFF3F6;
+    padding-top: 1.9vw;
+}
+
+.home_wrapper {
+    width: 70%;
+    height: 17.9vw;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.home_wrapper > .slick-next:before, .slick-prev:before {
+    display: none;
+}
+
+.home_wrapper .slick-next:before, .slick-prev:before {
+    display: none;
+}
+
+.home_slider {
+    width: 100%;
+    height: 17.9vw;
+    display: flex !important;
+    justify-content: center;
+    padding: 0 3.1vw;
+}
+
+.home_slider_left, .home_slider_right {
+    width: 50%;
+}
+
+.home_slider_left h1{
+    width: 16.1vw;
+    height: 2.21vw;
+    color: #29795C;
+    text-transform: uppercase;
+    margin-top: 2.21vw;
+    font-size: 2.43vw;
+}
+
+.home_slider_left p {
+    font: inherit;
+    color: #000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.43vw;
+    line-height: 4.21vw;
+    display: flex;
+    align-items: center;
+}
+
+.home_slider_left span {
+    width: 20.9vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.72vw;
+    line-height: 1.25vw;
+    display: flex;
+    align-items: center;
+    color: #0E1714;
+}
+
+.home_slider_right {
+    position: relative;
+}
+
+.home_slider_right img {
+    position: absolute;
+    right: 0;
+    bottom: -1.14vw;
+    width: 14.2vw;
+    height: 14.2vw;
+    border-radius: 50%;
+    background-color: #29795C;
+    margin-bottom: -1.04vw;
+}
+
+.home_item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.56vw;
+}
+
+.home_item > .item {
+    width: 20%;
+    display: flex;
+}
+
+.item_right {
+    margin-left: 10px;
+}
+
+.item_right > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.93vw;
+    padding-bottom: 0.41vw;
+    line-height: 0.98vw;
+    color: #0E1714;
+}
+
+.item_right > p {
+    width: 11.63vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 0.83vw;
+    color: #0E1714;
+    opacity: 0.8;
+}
+
+.item_left img {
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    background: rgba(51, 168, 126, 0.1);
+    padding: 0.52vw;
+}
