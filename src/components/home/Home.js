@@ -4,16 +4,20 @@ import './Home.css';
 
 import HomeImage from '../../assets/27 1.svg';
 import pokupka from '../../assets/Group.png'
+import PoiskCategoriy from '../poiskCategoriya/PoiskCategoriy';
+import Product from '../product/Product';
 
 const Home = () => {
 
     return (
-        <div className='home'>
+        <>
+            <div className='home'>
             <div className="home_wrapper">
                 <Slider
                     slidesToShow={1}
                     swipeToSlide={true}
                     focusOnSelect={true}
+                    dots={true}
                 >
                     <div className='home_slider'>
                         <div className="home_slider_left">
@@ -77,6 +81,10 @@ const Home = () => {
                 </div>
             </div>
         </div>
+
+        <PoiskCategoriy />
+        <Product />
+        </>
     )
 }
 
