@@ -9,6 +9,7 @@ import vector2 from '../../assets/Vector (2).png';
 import galichka from '../../assets/galichka.png';
 import PoiskCategoriy from '../poiskCategoriya/PoiskCategoriy';
 import Product from '../product/Product';
+import Brend from '../brend/Brend';
 
 const Home = () => {
 
@@ -114,6 +115,7 @@ const Home = () => {
 
             <PoiskCategoriy />
             <Product />
+            <Brend />
         </>
     )
 }

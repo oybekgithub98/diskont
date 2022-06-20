@@ -1,0 +1,80 @@
+.brend {
+    width: 100%;
+
+}
+
+.brend_wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.brend_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.brend_header > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.45vw;
+    line-height: 1.77vw;
+    color: #0E1714;
+}
+
+.brend_header > button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 0.98vw;
+    letter-spacing: 0.004em;
+    color: #29795C;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(230, 230, 230);
+    width: 8.98vw;
+    height: 2.4vw;
+    margin-top: 1.04vw;
+    border-radius: 3px;
+}
+
+.brend_header > button:hover {
+    border: 1px solid #33A87E;
+}
+
+.brend_header > button > img {
+    margin-left: 10px;
+}
+
+.brend_body {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0.57vw;
+}
+
+.brend_body > div {
+    width: 10.70vw;
+    height: 3.84vw;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.brend_body > div:nth-child(2) {
+    padding: 20px 55px;
+}
+
+.brend_body > div:nth-child(9) {
+    padding: 20px 55px;
+}
+
+.brend_body > div > img {
+    width: 100%;
+}
