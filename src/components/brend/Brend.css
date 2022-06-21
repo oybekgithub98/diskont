@@ -1,6 +1,6 @@
 .brend {
     width: 100%;
-
+    margin-top: 50px;
 }
 
 .brend_wrapper {
@@ -34,17 +34,13 @@
     background-color: transparent;
     border: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
     align-items: center;
-    border: 1px solid rgb(230, 230, 230);
-    width: 8.98vw;
+    width: 10.98vw;
     height: 2.4vw;
-    margin-top: 1.04vw;
+    margin-top: 0.50vw;
     border-radius: 3px;
-}
-
-.brend_header > button:hover {
-    border: 1px solid #33A87E;
+    cursor: pointer;
 }
 
 .brend_header > button > img {

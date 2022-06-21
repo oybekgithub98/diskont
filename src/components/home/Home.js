@@ -10,6 +10,12 @@ import galichka from '../../assets/galichka.png';
 import PoiskCategoriy from '../poiskCategoriya/PoiskCategoriy';
 import Product from '../product/Product';
 import Brend from '../brend/Brend';
+import BrendVideo from '../brendVideo/BrendVideo';
+
+import productImg1 from "../../assets/productImg1.png";
+import productImg2 from "../../assets/productImg2.png";
+import productImg3 from "../../assets/productImg3.png";
+import productImg4 from "../../assets/productImg4.png";
 
 const Home = () => {
 
@@ -65,6 +71,41 @@ const Home = () => {
         }
     ]
 
+    const productItems = [
+        {
+          id: 1,
+          img: productImg1,
+          SLPrise: "16 245 000",
+          price: "16 245",
+          text: "Смартфон Apple iPhone 11 128GB, черный, Slimbox",
+          feedback: 5,
+        },
+        {
+          id: 2,
+          img: productImg2,
+          SLPrise: "16 245 000",
+          price: "16 245",
+          text: "Смартфон Apple iPhone 11 128GB, черный, Slimbox",
+          feedback: 5,
+        },
+        {
+          id: 3,
+          img: productImg3,
+          SLPrise: "16 245 000",
+          price: "16 245",
+          text: "Смартфон Apple iPhone 11 128GB, черный, Slimbox",
+          feedback: 5,
+        },
+        {
+          id: 4,
+          img: productImg4,
+          SLPrise: "16 245 000",
+          price: "16 245",
+          text: "Смартфон Apple iPhone 11 128GB, черный, Slimbox",
+          feedback: 5,
+        },
+      ];
+
     return (
         <>
             <div className='home'>
@@ -114,8 +155,11 @@ const Home = () => {
             </div>
 
             <PoiskCategoriy />
-            <Product />
+            <Product data={productItems} />
+            <Product data={productItems} title="Новинки" />
             <Brend />
+            <Product title="Часто бывает нужно" data={productItems} />
+            <BrendVideo />
         </>
     )
 }

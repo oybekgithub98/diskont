@@ -1,0 +1,77 @@
+.brendVideo {
+    width: 100%;
+    margin: 3.90vw 0;
+}
+
+.brendVideo_head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.04vw;
+}
+
+.brendVideo_head > h1 {
+    width: 26.57vw;
+    size: 1.45vw;
+    line-height: 1.76vw;
+}
+
+.brendVideo_head > button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 0.98vw;
+    letter-spacing: 0.004em;
+    color: #29795C;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 10.98vw;
+    height: 2.4vw;
+    margin-top: 0.50vw;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.brendVideo_head > button > img {
+    margin-left: 10px;
+}
+
+.brendVideo_wrapper {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+
+.video_item {
+    width: 100%;
+    height: 119px;
+    display: flex !important;
+}
+
+.item_wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.item_wrapper > iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.brendVideo_wrapper .slick-prev {
+    background-color: #29795C;
+    border-radius: 50%;
+    color: red !important;
+    left: -45px;
+}
+
+.brendVideo_wrapper .slick-next {
+    background-color: #29795C;
+    border-radius: 50%;
+    color: red !important;
+    right: -45px;
+}

@@ -3,15 +3,11 @@ import ProductItem from '../productItem/ProductItem';
 
 import './Product.css';
 
-const Product = () => {
+const Product = ({ title = "Популярные товары" , data}) => {
     return (
-        <div className='product'>
-            <div className="product_wrapper">
-                <h1>Популярные товары</h1>
-                <ProductItem />
-                <h1 className='novinki' >Новинки</h1>
-                <ProductItem />
-            </div>
+        <div className='product_wrapper'>
+            <h1>{title}</h1>
+            <ProductItem data={data} />
         </div>
     )
 }
