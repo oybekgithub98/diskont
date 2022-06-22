@@ -5,3 +5,24 @@
   box-sizing: border-box;
   font-family: 'Inter',sans-serif !important;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.41vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #EFF3F6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #29795C;
+  border-radius: 0.26vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #33A87E;
+}

@@ -27,11 +27,16 @@
     width: 5.79vw;
     height: 5.79vw;
     background: #FFFFFF;
-    border: 18px solid #E3E3E3;
+    border: 0.93vw solid #E3E3E3;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s;
+}
+
+.poiskCategory_wrapper .item .item_img:hover {
+    border: 0.93vw solid #33A87E;
 }
 
 .poiskCategory_wrapper .item .item_img > img {
@@ -51,10 +56,12 @@
 }
 
 .poiskCategory_wrapper > .slick-slider > .slick-next {
-    right: -45px;
-    background-color: #ADDCCB;
-    color: white;
+    background-image: url(../../assets/arrowNext.svg);
+    background-size: cover;
     border-radius: 50%;
+    right: -45px;
+    /* font-size: 30px; */
+    
   }
   
   .slick-next:before {
@@ -64,10 +71,10 @@
   
 
 .poiskCategory_wrapper > .slick-slider > .slick-prev {
-    left: -45px;
-    background-color: #ADDCCB;
-    color: white;
+    background-image: url(../../assets/arrowPrev.svg);
     border-radius: 50%;
+    left: -45px;
+    background-size: cover;
 }
 
 .slick-next:before {

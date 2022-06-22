@@ -16,6 +16,42 @@
     font-size: 28px;
     line-height: 34px;
     color: #0E1714;
+}
+
+.product_text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.04vw;
     margin: 60px 0 20px 0;
 }
 
+.product_text > h1 {
+    width: 27.57vw;
+    size: 1.45vw;
+    line-height: 1.76vw;
+  
+}
+
+.product_text > button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 0.98vw;
+    letter-spacing: 0.004em;
+    color: #29795C;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 10.98vw;
+    height: 2.4vw;
+    margin-top: 0.50vw;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product_text > button > img {
+    margin-left: 10px
+}

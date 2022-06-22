@@ -1,8 +1,7 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Nav.css';
 
-
-// icons
 import {MdOutlineHeadsetMic} from 'react-icons/md';
 
 const Nav = () => {
@@ -10,7 +9,7 @@ const Nav = () => {
     <div className='nav'>
         <div className="nav_wrapper">
             <ul>
-                <li><a href="#">О Нас</a></li>
+                <li><Link to="/electronik">О Нас</Link></li>
                 <li><a href="#">Рассрочка</a></li>
                 <li><a href="#">Оферта</a></li>
                 <li><a href="#">Доставка и оплата</a></li>

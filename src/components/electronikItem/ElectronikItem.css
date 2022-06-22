@@ -1,0 +1,37 @@
+.electronik_content > a {
+    display: block;
+}
+
+.electronic_item {
+    background: rgba(51, 168, 126, 0.1);
+    border-radius: 1.45vw;
+    width: 100%;
+    height: 13.16vw;
+    padding: 1.01vw;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.electronic_item h4 {
+    font-size: 0.83vw;
+    color: #29795C;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.electronic_item img {
+    width: 8vw;
+    height: 11.84vw;
+    position: absolute;
+    margin: 2.02vw 3.64vw;
+    transition: .4s ease-in-out;
+    object-fit: contain;
+    transition: all .5s;
+}
+
+.electronic_item:hover img {
+    position: absolute;
+    margin: -1vw 1vw;
+    transform: scale(1.1);
+}

@@ -63,15 +63,17 @@
 }
 
 .brendVideo_wrapper .slick-prev {
-    background-color: #29795C;
+    background-image: url(../../assets/arrowPrev.svg);
     border-radius: 50%;
-    color: red !important;
     left: -45px;
+    background-size: cover;
+    
 }
 
 .brendVideo_wrapper .slick-next {
-    background-color: #29795C;
+    background-image: url(../../assets/arrowNext.svg);
+    background-size: cover;
     border-radius: 50%;
-    color: red !important;
     right: -45px;
+    font-size: 30px;
 }

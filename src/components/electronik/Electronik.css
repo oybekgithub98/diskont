@@ -1,0 +1,44 @@
+.electronik {
+    width: 100%;
+}
+
+.electronik_wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.electronik_wrapper > h1 {
+    margin-top: 15px;
+    font-size: 1.45vw;
+}
+
+.electronik_head {
+    display: flex;
+    align-items: center;
+    margin-top: 1.81vw;
+}
+
+.electronik_head > a {
+    margin: 0 0.84vw;
+    color: #323A37;
+    font-size: 0.83vw;
+}
+
+.electronik_head > p {
+    margin: 0 0.84vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.83vw;
+    line-height: 180%;
+    letter-spacing: 0.004em;
+    color: #0E1714;
+}
+
+.electronik_content {
+    display: grid !important;
+    grid-template-columns: repeat(5,1fr) !important;
+    flex-wrap: wrap;
+    gap: 2.05vw;
+    padding: 3.38vw 0px 8.46vw 0px;
+}

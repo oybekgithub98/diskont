@@ -1,0 +1,34 @@
+.contentSidebar {
+    width: 100%;
+}
+
+.contentSidebar_head {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.contentSidebar_head > h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.93vw;
+    line-height: 251.52%;
+    letter-spacing: 0.004em;
+    color: #0E1714;
+}
+
+.content_search {
+    background: #FFFFFF;
+    border: 0.8px solid #33A87E;
+    box-shadow: 0px 0px 0px 1.5px rgba(51, 168, 126, 0.15);
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    height: 2vw;
+    text-indent: 10px;
+}
+
+.ul_collection li {
+    padding: 10px 0;
+}

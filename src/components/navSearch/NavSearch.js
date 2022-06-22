@@ -6,6 +6,7 @@ import {TbQrcode} from 'react-icons/tb';
 import {FiSearch, FiShoppingCart} from 'react-icons/fi';
 import {BiHeart} from 'react-icons/bi';
 import {HiOutlineSwitchHorizontal, HiOutlineUser} from 'react-icons/hi';
+import {Link} from 'react-router-dom';
 
 const NavSearch = () => {
   return (
@@ -13,7 +14,7 @@ const NavSearch = () => {
         <div className="navSearch_wrapper">
             <ul>
                 <li>
-                    <h1>Diskont</h1>
+                    <Link to="/" ><h1>Diskont</h1></Link>
                 </li>
                 <li>
                     <button><TbQrcode className='navSearch_Icon' /> Каталог</button>

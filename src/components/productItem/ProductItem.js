@@ -9,10 +9,7 @@ import { Star } from "../../assets/svg";
 import "./ProductItem.css";
 
 const ProductItem = ({data=[]}) => {
-
-
-  
-
+ 
   function Start(number) {
     let data = [];
     for (let i = 0; i < number; i++) {

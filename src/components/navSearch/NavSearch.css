@@ -49,6 +49,11 @@
     line-height: 0.88vw;
 }
 
+.navSearch_wrapper li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .navSearch_Icon {
     height: 19px;
     width: 19px;
